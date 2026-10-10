@@ -6,7 +6,6 @@ import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageUIs.BasePageUI;
 
 import java.time.Duration;
 import java.util.List;
@@ -655,11 +654,5 @@ public class BasePage {
     // Chứa các hàm dùng chung cho các Page ví dụ như đợi Loading icon biến mất
     // =============================================================================
 
-    /**
-     * Đợi cho loading icon biến mất
-     */
 
-    protected void waitForLoadingIconInvisible() {
-        waitForListElementsInvisible(BasePageUI.LOADING_ICON);
-    }
 }

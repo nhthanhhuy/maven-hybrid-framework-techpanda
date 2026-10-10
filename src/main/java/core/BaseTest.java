@@ -41,8 +41,8 @@ public class BaseTest {
         }
 
         log.info("===== START BROWSER: " + browserName + " =====");
-        log.info("Opening URL: " + GlobalConstants.ORANGE_HRM_URL);
-        driver.get(GlobalConstants.ORANGE_HRM_URL);
+        log.info("Opening URL: " + GlobalConstants.LIVE_TECH_PANDA);
+        driver.get(GlobalConstants.LIVE_TECH_PANDA);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         return driver;

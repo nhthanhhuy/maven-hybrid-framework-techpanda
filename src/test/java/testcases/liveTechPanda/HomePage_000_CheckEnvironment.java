@@ -19,7 +19,6 @@ public class HomePage_000_CheckEnvironment extends BaseTest {
         private WebDriver driver;
         private String homePageTitle;
 
-
         @Parameters({"browser", "url"})
         @BeforeClass
         public void beforeClass(String browserName, String appURL) {
@@ -35,7 +34,6 @@ public class HomePage_000_CheckEnvironment extends BaseTest {
 
             homePageTitle = driver.getTitle();
             verifyEquals(homePageTitle, "Home page");
-            verifyTrue(false);
 
         }
 

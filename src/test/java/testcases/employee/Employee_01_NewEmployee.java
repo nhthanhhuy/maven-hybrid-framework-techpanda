@@ -4,15 +4,12 @@ import core.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
-import net.datafaker.Faker;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.DashboardPageObject;
-import pageObjects.LoginPageObject;
 import pageObjects.PageGenerator;
 import utilities.DataConfig;
 
