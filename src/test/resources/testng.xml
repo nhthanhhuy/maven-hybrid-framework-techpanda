@@ -8,26 +8,26 @@
         <listener class-name="reportConfig.MethodListener"/>
     </listeners>
 
-    <parameter name="url" value="http://localhost/orangehrm5/web/index.php/auth/login"></parameter>
+    <parameter name="url" value="https://live.techpanda.org/index.php"></parameter>
 
     <test name="Test on Chrome">
         <parameter name="browser" value="CHROME"></parameter>
         <classes>
-            <class name="testcases.employee.Employee_02_CustomHardAssert" />
+            <class name="testcases.liveTechPanda.HomePage_000_CheckEnvironment" />
         </classes>
     </test>
 
     <test name="Test on Edge">
         <parameter name="browser" value="Edge"></parameter>
         <classes>
-            <class name="testcases.employee.Employee_02_CustomHardAssert" />
+            <class name="testcases.liveTechPanda.HomePage_000_CheckEnvironment" />
         </classes>
     </test>
 
     <test name="Test on Firefox">
         <parameter name="browser" value="FIREFOX"></parameter>
         <classes>
-            <class name="testcases.employee.Employee_02_CustomHardAssert" />
+            <class name="testcases.liveTechPanda.HomePage_000_CheckEnvironment" />
         </classes>
     </test>
 
